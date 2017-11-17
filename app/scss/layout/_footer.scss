@@ -1,0 +1,18 @@
+.footer-container{
+  text-align: center;
+  position: relative;
+  top: 300px;
+
+}
+.footer-logo{
+  opacity: 0.2;
+  margin-bottom: 30px;
+}
+.footer-links{  
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+                    a{
+                      margin-right: 10px;
+                    }
+}

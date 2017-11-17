@@ -1,0 +1,51 @@
+.event{
+  background: url(../img/event.png) no-repeat;
+  height:1068px;
+  margin-top: 150px;
+}
+.letter-event{
+  position: absolute;
+  right: 0px;  
+  font-size: 700px;
+  color: #191e3f;
+  opacity: 0.4;
+  text-shadow: 10px 50px 50px rgba(0,0,0,0.4);
+}
+.event-number{
+  position: absolute;
+  right: 350px;
+  top: 100px;
+}
+.event{
+  .align-center{
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    height: 600px;
+      .event-team{
+        transform: rotate(-90deg);
+        width: 60px;
+        right: 435px;
+        font-size: 20px;
+        position: absolute;
+        top: 150px;
+    }
+  }
+}
+.event-description{
+  width: 20vw;
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+    h2{
+      margin-bottom:20px;
+  
+  }
+}
+  @media (max-width: 880px){
+  .event-description{
+    bottom: 0px;
+  }
+
+
+}

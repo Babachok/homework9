@@ -1,0 +1,35 @@
+.header-wrap{
+  background: url(../img/mountains_header.png) no-repeat;
+  height: 1100px;
+  position: relative;
+  
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;   
+    width: 50%;
+    height: 90px;
+    position: absolute;
+    right: 150px;
+    top: 80px;
+}
+
+  
+.header-text{
+    position: absolute;    
+    top: 500px;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    font-size: 40px;
+}
+@media (max-width: 1045px){
+    .header-text{
+        position: absolute;
+        top: 500px;        
+        height: 30px;
+        font-size: 40px;        
+        text-align: center;
+    }
+  
+}

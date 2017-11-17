@@ -1,0 +1,159 @@
+.number-wrapper{
+  width: 150px;   
+  position: relative;
+}
+.gallery-team{
+    transform: rotate(-90deg);
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
+    left: 5px;
+}
+.gallery{
+  .align-center{
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+  }
+}
+.persona1{
+  width: 660px;
+  position:relative;
+  
+}
+.flex{
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.persone1-description{
+  width: 330px;
+  position: absolute;
+  top: 350px;
+  left: -150px;
+}
+.photo-row2{
+  margin-top:80px;
+}
+.persona3{
+  margin-top:70px;
+  position:relative;
+}
+.persona2{
+  height:406px;
+  position:relative;  
+}
+.persone2-description{
+  position: absolute;
+  bottom: 50px;
+  left: 250px;
+  width: 300px;
+  z-index:2;
+
+}
+.persone3-description{
+    position: absolute;
+    bottom: 60px;
+    left: -90px;
+    width: 300px;
+}
+.photo{
+  box-shadow: 0 150px 100px 10px rgba(0,0,0,0.4);  
+}
+.photo-row3{
+  margin-top:80px;
+
+}
+.persona4{
+  height:406px;
+  margin-left: 80px;
+  position: relative;
+}
+.persona5{
+  margin-top: 200px;
+  margin-right: 80px;
+  position: relative;
+}
+.persone4-description{
+    position: absolute;
+    bottom: 60px;
+    left: -85px;
+    width:300px;
+}
+.persone5-description{
+    position: absolute;
+    bottom: 65px;
+    right: -90px;
+    width: 270px;
+    }
+  .letter-team{
+    p{
+      text-shadow: 10px 50px 50px rgba(0,0,0,0.4);
+      position: absolute;
+      right: 315px;
+      bottom: 350px;  
+      font-size: 700px;
+      color: #191e3f;
+      opacity: 0.6;
+      font-size: 865px;
+    }
+  }
+  @media (max-width: 1180px){
+      .letter-team{
+        display:none;
+      }
+
+      .flex{
+          width:auto;
+          flex-wrap:wrap;
+          justify-content: center;
+      }
+      .persone1-description {
+        top: 475px;
+        left:160px;
+        
+      }
+      .persone2-description {
+        position: absolute;
+        bottom: 10px;
+        left: 95px;
+      }
+      .persone3-description {
+        position: absolute;
+        bottom: 10px;
+        left: 110px;
+      }
+      .persone4-description {
+        position: absolute;
+        bottom: 10px;
+        left: 110px;
+      }
+      .persone5-description {
+        position: absolute;
+        bottom: 10px;
+        left: 70px;
+      }
+      .persona4{        
+        margin-left: 0px;
+      }
+      .persona5{        
+        margin-right: 0px;
+      }
+           
+  }
+  @media (max-width: 720px){
+    .persona1{
+      width: 406px;
+      img{
+        width:406px;
+      }
+    }
+    .persone1-description{
+      top:370px;
+      left:85px;
+      p{
+        display:none;
+      }
+    }
+
+  }
